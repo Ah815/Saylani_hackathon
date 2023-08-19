@@ -1,0 +1,272 @@
+.nav{
+    background:#007bff;
+    padding:2px;
+   
+}
+
+#logout{
+    position: absolute;
+    right: 50px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+}
+#loader {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#createAccountContainer {
+    display: none;
+}
+
+#content_container {
+    display: none;
+}
+
+.card{
+    margin: 10px;
+    padding: 5px;
+}
+
+.card-userInfo{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 4px;
+    justify-content: space-between;
+    background-color: aliceblue;
+    font-weight: normal;
+
+}
+
+.card-title{
+    font-weight: bold;
+}   
+#pro{
+    width: 90px;
+    height: 35px;
+    border: 1px solid black;
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#createAccountContainer {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+/* Heading styles */
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Form input and button styles */
+.form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-outline-success {
+    background-color: transparent;
+    border: 2px solid #28a745;
+    color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    #createAccountContainer {
+        padding: 10px;
+    }
+}
+
+.blog{
+width: 350px;
+}
+.bbtn{
+    margin-bottom: 10px;
+}
+
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and container */
+#content_container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #777;
+    margin-top: 0;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.form-label {
+    display: block;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    background-color: #e0e0e0;
+}
+
+.btn-primary {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+h4 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    #content_container {
+        width: 90%;
+    }
+}
+
+#login {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    background-color: #e0e0e0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 480px) {
+    #login {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
